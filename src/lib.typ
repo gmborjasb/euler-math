@@ -4,14 +4,15 @@
 #import "styles/page.typ": setup-page
 #import "components/theorems.typ": (
   setup-theorems, theorem, theorem-box, lemma, corollary, definition, proposition, property, example,
-  exercise, problem,
+  exercise, problem, solution, proof
 )
 #import "styles/colors.typ" : neo-blue-sec
 
 
-#let neo-article(
+#let euler-math(
   title: none,
   subtitle: none,
+  author: none,
   body,
 ) = {
   // A. Basic configuration
@@ -41,6 +42,9 @@
       #text(size: 30pt, font: "New Computer Modern Sans", weight: "bold")[#title] 
 
       #text(size: 20pt)[#subtitle]
+      
+      #text(size: 16pt, font: "IBM Plex Sans")[#author]
+
       #v(1cm)
     ]
   }

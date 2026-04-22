@@ -77,7 +77,7 @@
 #let (theorem-counter, theorem-box, theorem, show-theorem) = make-frame(
   "theorem",
   theorion-i18n-map.at("theorem"),
-  inherited-levels: 2,
+  inherited-levels: 1,
   render: render-fn.with(fill: neo-maroon),
 )
 
