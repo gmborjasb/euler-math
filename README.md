@@ -1,4 +1,6 @@
-# EulerMath
+<p align="center">
+    <img src="img/logo.png" alt="EulerMath" width="400"/>
+</p>
 
 [EulerMath](https://github.com/gmborjasb/euler-math) is a template for writing Math Olympiad problems, exams, handouts, and solution notes in Typst. 
 
